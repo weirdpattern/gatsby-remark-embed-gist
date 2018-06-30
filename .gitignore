@@ -1,0 +1,75 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+logs
+*.log
+npm-debug.log*
+.bak
+.sql
+.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Text editor files #
+#####################
+.idea
+.classpath
+.project
+.settings
+.metadata
+.vscode
+.ipr
+
+# Package Managers #
+##############
+node_modules
+bower_components
+jspm_packages
+pids
+.npm
+.node_repl_history
+.pid
+.seed
+
+# Frameworks #
+##############
+.coveralls.yml
+.nyc_output
+.grunt
+.lock-wscript
+
+# Folders #
+###########
+dist
+build
+lib-cov
+coverage

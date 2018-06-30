@@ -1,0 +1,154 @@
+{
+  "license": "MIT",
+  "version": "1.0.0",
+  "name": "gatsby-remark-embedded-gist",
+  "description": "Embed gist snippets in gatsby markdown",
+  "author": {
+    "name": "Patricio Trevino",
+    "email": "patricio@weirdpattern.com"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weirdpattern/gatsby-remark-embedded-gist"
+  },
+  "keywords": [
+    "gatsby",
+    "remark",
+    "gist",
+    "embedded",
+    "plugin"
+  ],
+  "scripts": {
+    "build": "BABEL_ENV=production babel src --out-dir .",
+    "format": "prettier --write ./{src,specs}/{,**}/*.js",
+    "lint": "eslint ./{src,specs}/{,**}/*.js",
+    "precommit": "lint-staged && npm test",
+    "test": "jest",
+    "test:verbose": "jest --verbose",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.0.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-filenames": "^1.3.2",
+    "eslint-plugin-prettier": "^2.6.1",
+    "husky": "^0.14.3",
+    "jest": "^23.2.0",
+    "lint-staged": "^7.2.0",
+    "prettier": "^1.13.7"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "gatsby": "^1.9.273",
+    "gatsby-transformer-remark": "^1.7.44"
+  },
+  "babel": {
+    "env": {
+      "production": {
+        "presets": [
+          "env",
+          {
+            "targets": {
+              "browsers": ["last 4 versions", "safari >= 7", "ie >= 9"],
+              "uglify": true
+            }
+          }
+        ]
+      }
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "prettier"
+    ],
+    "plugins": [
+      "jest",
+      "json",
+      "prettier",
+      "filenames"
+    ],
+    "env": {
+      "es6": true,
+      "node": true,
+      "jest": true
+    },
+    "rules": {
+      "semi": "error",
+      "no-undef": "off",
+      "no-unused-vars": "off",
+      "no-dupe-class-members": "off",
+      "require-jsdoc": "error",
+      "valid-jsdoc": [
+        "error",
+        {
+          "preferType": {
+            "any": "*",
+            "Boolean": "boolean",
+            "Number": "number",
+            "Object": "object",
+            "String": "string",
+            "return": "returns"
+          },
+          "requireReturnType": true,
+          "requireParamDescription": true,
+          "requireReturnDescription": true
+        }
+      ],
+      "quotes": [
+        "error",
+        "double",
+        {
+          "avoidEscape": true
+        }
+      ],
+      "no-console": "off",
+      "filenames/no-index": "off",
+      "filenames/match-exported": [
+        "error",
+        [
+          null,
+          "kebab",
+          "camel"
+        ]
+      ],
+      "jest/no-disabled-tests": "error",
+      "jest/no-focused-tests": "error",
+      "jest/no-identical-title": "error",
+      "jest/valid-expect": "error",
+      "prettier/prettier": "error"
+    }
+  },
+  "lint-staged": {
+    "*.js{,x}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "ts",
+      "tsx"
+    ],
+    "testMatch": [
+      "**/specs/**/*[.-][Ss]pec{,s}.{j,t}s{,x}"
+    ],
+    "rootDir": ".",
+    "verbose": false,
+    "resetMocks": true,
+    "resetModules": true,
+    "collectCoverage": false,
+    "collectCoverageFrom": [
+      "src/*.{j,t}s{,x}",
+      "!**/*.min.js",
+      "!**/static/**",
+      "!**/specs/**",
+      "!**/node_modules/**"
+    ]
+  }
+}

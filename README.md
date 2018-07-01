@@ -1,7 +1,7 @@
-# gatsby-remark-embedded-gist
+# gatsby-remark-embed-gist
 
-[![NPM badge](https://img.shields.io/npm/v/gatsby-remark-embedded-gist.svg?style=flat-square)](https://www.npmjs.com/package/gatsby-remark-embedded-gist)
-[![Travis badge](https://img.shields.io/travis/weirdpattern/gatsby-remark-embedded-gist.svg?branch=master&style=flat-square)](https://travis-ci.org/weirdpattern/gatsby-remark-embedded-gist)
+[![NPM badge](https://img.shields.io/npm/v/gatsby-remark-embed-gist.svg?style=flat-square)](https://www.npmjs.com/package/gatsby-remark-embed-gist)
+[![Travis badge](https://img.shields.io/travis/weirdpattern/gatsby-remark-embed-gist.svg?branch=master&style=flat-square)](https://travis-ci.org/weirdpattern/gatsby-remark-embed-gist)
 
 This plugin allows content authors to embed [Gist](https://gist.github.com/) 
 snippets.
@@ -24,7 +24,7 @@ This is the hash value in the gist url, e.g. https://gist.github.com/<username>/
 
 ## Installation
 
-`yarn add gatsby-remark-embedded-gist`
+`yarn add gatsby-remark-embed-gist`
 
 ## Usage
 
@@ -35,7 +35,7 @@ This is the hash value in the gist url, e.g. https://gist.github.com/<username>/
   options: {
     plugins: [
       {
-        resolve: "gatsby-remark-embedded-gist",
+        resolve: "gatsby-remark-embed-gist",
         options: {
           // Optional:
 
@@ -87,3 +87,13 @@ Into this...
     </div>
 </div>
 ```
+
+## Notes
+
+The order of the plugins only matters when used in conjunction with 
+`gatsby-remark-prismjs`, because this plugin transforms the inline code blocks, 
+so add `gatsby-remark-embed-gist` somewhere above this plugin.  
+
+## License
+
+MIT, by Patricio Trevino

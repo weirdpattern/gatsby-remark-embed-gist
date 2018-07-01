@@ -139,69 +139,100 @@ function buildUrl(value, options) {
  * @param {PluginOptions} optiosn the options of the plugin.
  */
 
-exports.default = function(_ref3) {
-  var markdownAST = _ref3.markdownAST;
-  var options =
-    arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+exports.default = (function() {
+  var _ref4 = _asyncToGenerator(
+    /*#__PURE__*/ regeneratorRuntime.mark(function _callee2(_ref3) {
+      var markdownAST = _ref3.markdownAST;
+      var options =
+        arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+      return regeneratorRuntime.wrap(
+        function _callee2$(_context2) {
+          while (1) {
+            switch ((_context2.prev = _context2.next)) {
+              case 0:
+                _context2.next = 2;
+                return (0, _asyncUnistUtilVisit2.default)(
+                  markdownAST,
+                  (function() {
+                    var _ref5 = _asyncToGenerator(
+                      /*#__PURE__*/ regeneratorRuntime.mark(function _callee(
+                        node
+                      ) {
+                        var url, body, content;
+                        return regeneratorRuntime.wrap(
+                          function _callee$(_context) {
+                            while (1) {
+                              switch ((_context.prev = _context.next)) {
+                                case 0:
+                                  if (
+                                    !(
+                                      node.type !== "inlineCode" ||
+                                      !node.value.startsWith("gist:")
+                                    )
+                                  ) {
+                                    _context.next = 2;
+                                    break;
+                                  }
 
-  // this returns a promise that will fulfill immediately for everything
-  // that is not an inlineCode that starts with `gist:`.
-  return (0, _asyncUnistUtilVisit2.default)(
-    markdownAST,
-    (function() {
-      var _ref4 = _asyncToGenerator(
-        /*#__PURE__*/ regeneratorRuntime.mark(function _callee(node) {
-          var url, body, content;
-          return regeneratorRuntime.wrap(
-            function _callee$(_context) {
-              while (1) {
-                switch ((_context.prev = _context.next)) {
-                  case 0:
-                    if (
-                      !(
-                        node.type !== "inlineCode" ||
-                        !node.value.startsWith("gist:")
-                      )
-                    ) {
-                      _context.next = 2;
-                      break;
-                    }
+                                  return _context.abrupt("return");
 
-                    return _context.abrupt("return");
+                                case 2:
+                                  // build the url.
+                                  url = buildUrl(
+                                    node.value.substring(5),
+                                    options
+                                  );
 
-                  case 2:
-                    // build the url.
-                    url = buildUrl(node.value.substring(5), options);
+                                  // call the gist and update the node type and value.
 
-                    // call the gist and update the node type and value.
+                                  _context.next = 5;
+                                  return (0, _requestPromise2.default)(url);
 
-                    _context.next = 5;
-                    return (0, _requestPromise2.default)(url);
+                                case 5:
+                                  body = _context.sent;
+                                  content = JSON.parse(body);
 
-                  case 5:
-                    body = _context.sent;
-                    content = JSON.parse(body);
+                                  node.type = "html";
+                                  node.value = content.div;
 
-                    node.type = "html";
-                    node.value = content.div;
+                                  return _context.abrupt("return", markdownAST);
 
-                    return _context.abrupt("return", markdownAST);
+                                case 10:
+                                case "end":
+                                  return _context.stop();
+                              }
+                            }
+                          },
+                          _callee,
+                          undefined
+                        );
+                      })
+                    );
 
-                  case 10:
-                  case "end":
-                    return _context.stop();
-                }
-              }
-            },
-            _callee,
-            undefined
-          );
-        })
+                    return function(_x3) {
+                      return _ref5.apply(this, arguments);
+                    };
+                  })()
+                );
+
+              case 2:
+                return _context2.abrupt("return", _context2.sent);
+
+              case 3:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        },
+        _callee2,
+        undefined
       );
-
-      return function(_x2) {
-        return _ref4.apply(this, arguments);
-      };
-    })()
+    })
   );
-};
+
+  return function(_x2) {
+    return _ref4.apply(this, arguments);
+  };
+})();
+
+module.exports = exports["default"];

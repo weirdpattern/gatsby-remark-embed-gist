@@ -47,10 +47,10 @@ function buildUrl(value, options) {
  * @param {{ markdownAST }} markdownAST the markdown abstract syntax tree.
  * @param {PluginOptions} optiosn the options of the plugin.
  */
-export default ({ markdownAST }, options = {}) => {
+export default async ({ markdownAST }, options = {}) => {
   // this returns a promise that will fulfill immediately for everything
   // that is not an inlineCode that starts with `gist:`.
-  return visit(markdownAST, async node => {
+  return await visit(markdownAST, async node => {
     // validate pre-requisites.
     if (node.type !== "inlineCode" || !node.value.startsWith("gist:")) return;
 

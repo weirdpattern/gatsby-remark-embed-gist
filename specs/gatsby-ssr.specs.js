@@ -1,24 +1,24 @@
 import { onRenderBody } from "../src/gatsby-ssr";
 
-const setHeadComponent = jest.fn();
+const setHeadComponents = jest.fn();
 
 describe("gatsby-ssr", () => {
   beforeEach(() => {
-    setHeadComponent.mockReset();
+    setHeadComponents.mockReset();
   });
 
   it("executes when includeDefaultCss is default", () => {
-    onRenderBody({ setHeadComponent });
-    expect(setHeadComponent).toHaveBeenCalledTimes(1);
+    onRenderBody({ setHeadComponents });
+    expect(setHeadComponents).toHaveBeenCalledTimes(1);
   });
 
   it("executes when includeDefaultCss is true", () => {
-    onRenderBody({ setHeadComponent }, { includeDefaultCss: true });
-    expect(setHeadComponent).toHaveBeenCalledTimes(1);
+    onRenderBody({ setHeadComponents }, { includeDefaultCss: true });
+    expect(setHeadComponents).toHaveBeenCalledTimes(1);
   });
 
   it("doesn't execute when includeDefaultCss is false", () => {
-    onRenderBody({ setHeadComponent }, { includeDefaultCss: false });
-    expect(setHeadComponent).toHaveBeenCalledTimes(0);
+    onRenderBody({ setHeadComponents }, { includeDefaultCss: false });
+    expect(setHeadComponents).toHaveBeenCalledTimes(0);
   });
 });

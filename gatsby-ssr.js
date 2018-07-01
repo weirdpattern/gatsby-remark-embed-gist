@@ -21,16 +21,16 @@ function _interopRequireDefault(obj) {
 
 /**
  * Adds a link to the Github Gist default css.
- * @param {{ setHeadComponent }} setHeadComponent adds components to <head>.
+ * @param {{ setHeadComponents }} setHeadComponents adds components to <head>.
  * @param {PluginOptions} options the options of the plugin.
  */
 function onRenderBody(_ref) {
-  var setHeadComponent = _ref.setHeadComponent;
+  var setHeadComponents = _ref.setHeadComponents;
   var options =
     arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
 
   if (options.includeDefaultCss !== false) {
-    return setHeadComponent([
+    return setHeadComponents([
       _react2.default.createElement("link", {
         rel: "stylesheet",
         href:

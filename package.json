@@ -32,7 +32,8 @@
     "precommit": "lint-staged && npm test",
     "test": "jest",
     "test:verbose": "jest --verbose",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "release": "standard-version"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -50,7 +51,8 @@
     "lint-staged": "^7.2.0",
     "prettier": "^1.13.7",
     "react": "^16.4.1",
-    "remark": "^9.0.0"
+    "remark": "^9.0.0",
+    "standard-version": "^4.4.0"
   },
   "dependencies": {
     "async-unist-util-visit": "^1.0.0",

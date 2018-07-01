@@ -2,7 +2,7 @@
   "license": "MIT",
   "version": "1.0.0",
   "name": "gatsby-remark-embedded-gist",
-  "description": "Embed gist snippets in gatsby markdown",
+  "description": "Gatsby remark gists preprocessor",
   "author": {
     "name": "Patricio Trevino",
     "email": "patricio@weirdpattern.com"
@@ -12,8 +12,15 @@
     "type": "git",
     "url": "https://github.com/weirdpattern/gatsby-remark-embedded-gist"
   },
+  "bugs": {
+    "url": "https://github.com/weirdpattern/gatsby-remark-embedded-gist/issues"
+  },
+  "main": "index.js",
   "keywords": [
     "gatsby",
+    "gatsbyjs",
+    "gatsby-plugin",
+    "gatsby-remark",
     "remark",
     "gist",
     "embedded",
@@ -30,7 +37,10 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "eslint": "^5.0.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-filenames": "^1.3.2",
@@ -38,27 +48,40 @@
     "husky": "^0.14.3",
     "jest": "^23.2.0",
     "lint-staged": "^7.2.0",
-    "prettier": "^1.13.7"
+    "prettier": "^1.13.7",
+    "react": "^16.4.1",
+    "remark": "^9.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "async-unist-util-visit": "^1.0.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  },
   "peerDependencies": {
-    "gatsby": "^1.9.273",
-    "gatsby-transformer-remark": "^1.7.44"
+    "gatsby": "*",
+    "gatsby-transformer-remark": "*",
+    "react": "*"
   },
   "babel": {
-    "env": {
-      "production": {
-        "presets": [
-          "env",
-          {
-            "targets": {
-              "browsers": ["last 4 versions", "safari >= 7", "ie >= 9"],
-              "uglify": true
-            }
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": [
+              "last 4 versions",
+              "safari >= 7",
+              "ie >= 9"
+            ],
+            "uglify": true
           }
-        ]
-      }
-    }
+        }
+      ],
+      "react"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
   },
   "eslintConfig": {
     "extends": [

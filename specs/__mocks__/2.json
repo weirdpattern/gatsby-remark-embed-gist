@@ -1,0 +1,9 @@
+{
+  "description": "2016.08.31.stream-redirection",
+  "public": true,
+  "created_at": "2018-06-28T21:56:26.000-05:00",
+  "files": ["syntax.text"],
+  "owner": "weirdpattern",
+  "div": "<div id=\"gist90436059\" class=\"gist\">\n    <div class=\"gist-file\">\n      <div class=\"gist-data\">\n        <div class=\"js-gist-file-update-container js-task-list-container file-box\">\n  <div id=\"file-syntax-text\" class=\"file\">\n    \n\n  <div itemprop=\"text\" class=\"blob-wrapper data type-text\">\n      <table class=\"highlight tab-size js-file-line-container\" data-tab-size=\"8\">\n      <tr>\n        <td id=\"file-syntax-text-L1\" class=\"blob-num js-line-number\" data-line-number=\"1\"></td>\n        <td id=\"file-syntax-text-LC1\" class=\"blob-code blob-code-inner js-file-line\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>\n      </tr>\n</table>\n\n\n  </div>\n\n  </div>\n</div>\n\n      </div>\n      <div class=\"gist-meta\">\n        <a href=\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/cd59c416e46510473fa99e250b9446eec30d252c/syntax.text\" style=\"float:right\">view raw</a>\n        <a href=\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\">syntax.text</a>\n        hosted with &#10084; by <a href=\"https://github.com\">GitHub</a>\n      </div>\n    </div>\n</div>\n",
+  "stylesheet": "https://assets-cdn.github.com/assets/gist-embed-87673c31a5b37b5e6556b63e1081ebbc.css"
+}

@@ -20,7 +20,7 @@ Where:
 - **username**, represents the github handler whose gist is to be accessed.  
 Can be defaulted via configuration.
 - **gist_id**, is the id of the gist to be accessed.   
-This is the hash value in the gist url, e.g. https://gist.github.com/\<username\>/`ce54fdb1e5621b5966e146026995b974`).
+This is the hash value in the gist url, e.g. https://gist.github.com/<username\>/`ce54fdb1e5621b5966e146026995b974`).
 - **gist_file**, is the name of the file in the gist to be accessed.
 
 ## Installation

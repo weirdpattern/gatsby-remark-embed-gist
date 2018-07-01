@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "version": "1.0.0",
-  "name": "gatsby-remark-embedded-gist",
+  "name": "gatsby-remark-embed-gist",
   "description": "Gatsby remark gists preprocessor",
   "author": {
     "name": "Patricio Trevino",
@@ -10,10 +10,10 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/weirdpattern/gatsby-remark-embedded-gist"
+    "url": "https://github.com/weirdpattern/gatsby-remark-embed-gist"
   },
   "bugs": {
-    "url": "https://github.com/weirdpattern/gatsby-remark-embedded-gist/issues"
+    "url": "https://github.com/weirdpattern/gatsby-remark-embed-gist/issues"
   },
   "main": "index.js",
   "keywords": [

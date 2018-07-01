@@ -36,7 +36,7 @@ function buildUrl(value, options) {
 
   let url = `${baseUrl}/${username}/${id}.json`;
   if (file != null) {
-    url += "?file=${file}";
+    url += `?file=${file}`;
   }
 
   return url;

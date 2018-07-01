@@ -127,7 +127,7 @@ function buildUrl(value, options) {
 
   var url = baseUrl + "/" + username + "/" + id + ".json";
   if (file != null) {
-    url += "?file=${file}";
+    url += "?file=" + file;
   }
 
   return url;

@@ -34,7 +34,7 @@
     "test": "jest",
     "test:verbose": "jest --verbose",
     "test:coverage": "jest --coverage",
-    "release": "npm run clean && npm install && npm run build && standard-version"
+    "release": "yarn run clean && yarn install && yarn run build && standard-version"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

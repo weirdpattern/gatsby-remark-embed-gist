@@ -73,3 +73,8 @@ dist
 build
 lib-cov
 coverage
+
+# Build #
+#########
+/index.js
+/gatsby-ssr.js

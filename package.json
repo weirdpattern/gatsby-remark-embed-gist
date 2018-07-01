@@ -27,13 +27,14 @@
   ],
   "scripts": {
     "build": "BABEL_ENV=production babel src --out-dir .",
+    "clean": "rimraf node_modules",
     "format": "prettier --write ./{src,specs}/{,**}/*.js",
     "lint": "eslint ./{src,specs}/{,**}/*.js",
     "precommit": "lint-staged && npm test",
     "test": "jest",
     "test:verbose": "jest --verbose",
     "test:coverage": "jest --coverage",
-    "release": "npm run build && standard-version"
+    "release": "npm run clean && npm install && npm run build && standard-version"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -52,6 +53,7 @@
     "prettier": "^1.13.7",
     "react": "^16.4.1",
     "remark": "^9.0.0",
+    "rimraf": "^2.6.2",
     "standard-version": "^4.4.0"
   },
   "dependencies": {

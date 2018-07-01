@@ -7,7 +7,6 @@
     "name": "Patricio Trevino",
     "email": "patricio@weirdpattern.com"
   },
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/weirdpattern/gatsby-remark-embed-gist"

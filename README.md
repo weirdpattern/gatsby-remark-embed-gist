@@ -2,6 +2,7 @@
 
 [![NPM badge](https://img.shields.io/npm/v/gatsby-remark-embed-gist.svg?style=flat-square)](https://www.npmjs.com/package/gatsby-remark-embed-gist)
 [![Travis badge](https://img.shields.io/travis/weirdpattern/gatsby-remark-embed-gist.svg?branch=master&style=flat-square)](https://travis-ci.org/weirdpattern/gatsby-remark-embed-gist)
+[![codecov](https://codecov.io/gh/weirdpattern/gatsby-remark-embed-gist/branch/master/graph/badge.svg)](https://codecov.io/gh/weirdpattern/gatsby-remark-embed-gist)
 
 This plugin allows content authors to embed [Gist](https://gist.github.com/) 
 snippets.

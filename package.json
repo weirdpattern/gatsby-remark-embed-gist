@@ -170,7 +170,6 @@
     "verbose": false,
     "resetMocks": true,
     "resetModules": true,
-    "collectCoverage": false,
     "collectCoverageFrom": [
       "src/*.{j,t}s{,x}",
       "!**/*.min.js",

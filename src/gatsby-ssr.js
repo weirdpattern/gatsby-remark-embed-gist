@@ -10,6 +10,7 @@ import React from "react";
  * Adds a link to the Github Gist default css.
  * @param {{ setHeadComponents }} setHeadComponents adds components to <head>.
  * @param {PluginOptions} options the options of the plugin.
+ * @returns {*} rendered body.
  */
 export function onRenderBody({ setHeadComponents }, options = {}) {
   if (options.includeDefaultCss !== false) {

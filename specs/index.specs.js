@@ -28,6 +28,61 @@ describe("gatsby-remark-embedded-gist", () => {
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
+  it("generates an embedded gist with username and file in query", async () => {
+    const markdownAST = remark.parse(
+      "`gist:weirdpattern/ce54fdb1e5621b5966e146026995b974?file=syntax.text`"
+    );
+
+    const processed = await plugin({ markdownAST });
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("generates an embedded gist with username and file in query with single line highlighted", async () => {
+    const markdownAST = remark.parse(
+      "`gist:weirdpattern/ce54fdb1e5621b5966e146026995b974?file=example.sh&highlights=1`"
+    );
+
+    const processed = await plugin({ markdownAST });
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("generates an embedded gist with username and file in query with multiple lines highlighted", async () => {
+    const markdownAST = remark.parse(
+      "`gist:weirdpattern/ce54fdb1e5621b5966e146026995b974?file=example.sh&highlights=1,3,5,7`"
+    );
+
+    const processed = await plugin({ markdownAST });
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("generates an embedded gist with username and file in query with range of lines highlighted", async () => {
+    const markdownAST = remark.parse(
+      "`gist:weirdpattern/ce54fdb1e5621b5966e146026995b974?file=example.sh&highlights=1-7`"
+    );
+
+    const processed = await plugin({ markdownAST });
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("generates an embedded gist with username and file in query with mixed lines highlighted", async () => {
+    const markdownAST = remark.parse(
+      "`gist:weirdpattern/ce54fdb1e5621b5966e146026995b974?file=example.sh&highlights=1,3,4-7`"
+    );
+
+    const processed = await plugin({ markdownAST });
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
   it("generates an embedded gist with default username", async () => {
     const markdownAST = remark.parse("`gist:ce54fdb1e5621b5966e146026995b974`");
 
@@ -43,6 +98,76 @@ describe("gatsby-remark-embedded-gist", () => {
   it("generates an embedded gist with default username and file", async () => {
     const markdownAST = remark.parse(
       "`gist:ce54fdb1e5621b5966e146026995b974#syntax.text`"
+    );
+
+    const processed = await plugin(
+      { markdownAST },
+      { username: "weirdpattern" }
+    );
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("generates an embedded gist with default username and file in query", async () => {
+    const markdownAST = remark.parse(
+      "`gist:ce54fdb1e5621b5966e146026995b974?file=syntax.text`"
+    );
+
+    const processed = await plugin(
+      { markdownAST },
+      { username: "weirdpattern" }
+    );
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("generates an embedded gist with default username and file in query with single line highlighted", async () => {
+    const markdownAST = remark.parse(
+      "`gist:ce54fdb1e5621b5966e146026995b974?file=example.sh&highlights=2`"
+    );
+
+    const processed = await plugin(
+      { markdownAST },
+      { username: "weirdpattern" }
+    );
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("generates an embedded gist with default username and file in query with muplie lines highlighted", async () => {
+    const markdownAST = remark.parse(
+      "`gist:ce54fdb1e5621b5966e146026995b974?file=example.sh&highlights=1,2,8`"
+    );
+
+    const processed = await plugin(
+      { markdownAST },
+      { username: "weirdpattern" }
+    );
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("generates an embedded gist with default username and file in query with range of lines highlighted", async () => {
+    const markdownAST = remark.parse(
+      "`gist:ce54fdb1e5621b5966e146026995b974?file=example.sh&highlights=2-6`"
+    );
+
+    const processed = await plugin(
+      { markdownAST },
+      { username: "weirdpattern" }
+    );
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("generates an embedded gist with default username and file in query with mixed lines highlighted", async () => {
+    const markdownAST = remark.parse(
+      "`gist:ce54fdb1e5621b5966e146026995b974?file=example.sh&highlights=2,8-10,12-14`"
     );
 
     const processed = await plugin(
@@ -76,6 +201,61 @@ describe("gatsby-remark-embedded-gist", () => {
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
+  it("inline username overrides configuration with file in query", async () => {
+    const markdownAST = remark.parse(
+      "`gist:weirdpattern/ce54fdb1e5621b5966e146026995b974?file=syntax.text`"
+    );
+
+    const processed = await plugin({ markdownAST }, { username: "john" });
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("inline username overrides configuration with file in query with single line highlighted", async () => {
+    const markdownAST = remark.parse(
+      "`gist:weirdpattern/ce54fdb1e5621b5966e146026995b974?file=example.sh&highlights=5`"
+    );
+
+    const processed = await plugin({ markdownAST }, { username: "john" });
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("inline username overrides configuration with file in query with multiple lines highlighted", async () => {
+    const markdownAST = remark.parse(
+      "`gist:weirdpattern/ce54fdb1e5621b5966e146026995b974?file=example.sh&highlights=5,11`"
+    );
+
+    const processed = await plugin({ markdownAST }, { username: "john" });
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("inline username overrides configuration with file in query with range of lines highlighted", async () => {
+    const markdownAST = remark.parse(
+      "`gist:weirdpattern/ce54fdb1e5621b5966e146026995b974?file=example.sh&highlights=5-10`"
+    );
+
+    const processed = await plugin({ markdownAST }, { username: "john" });
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("inline username overrides configuration with file in query with mixed lines highlighted", async () => {
+    const markdownAST = remark.parse(
+      "`gist:weirdpattern/ce54fdb1e5621b5966e146026995b974?file=example.sh&highlights=1-3,5,10-13`"
+    );
+
+    const processed = await plugin({ markdownAST }, { username: "john" });
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
   it("fails when no username is provided", async () => {
     const markdownAST = remark.parse("`gist:ce54fdb1e5621b5966e146026995b974`");
     expect(plugin({ markdownAST })).rejects.toEqual(
@@ -87,6 +267,27 @@ describe("gatsby-remark-embedded-gist", () => {
     const markdownAST = remark.parse("`gist:weirdpattern/#syntax.text`");
     expect(plugin({ markdownAST })).rejects.toEqual(
       new Error("Missing gist id information")
+    );
+  });
+
+  it("fails when no id is provided and file is provided in query", async () => {
+    const markdownAST = remark.parse("`gist:weirdpattern/?file=syntax.text`");
+    expect(plugin({ markdownAST })).rejects.toEqual(
+      new Error("Missing gist id information")
+    );
+  });
+
+  it("fails with malformed queries", async () => {
+    const markdownAST = remark.parse("`gist:weirdpattern/?syntax.text`");
+    expect(plugin({ markdownAST })).rejects.toEqual(
+      new Error("Malformed query. Check your 'gist:' imports")
+    );
+  });
+
+  it("fails with queries that don't contain a file or highlights", async () => {
+    const markdownAST = remark.parse("`gist:weirdpattern/?other=test`");
+    expect(plugin({ markdownAST })).rejects.toEqual(
+      new Error("Malformed query. Check your 'gist:' imports")
     );
   });
 

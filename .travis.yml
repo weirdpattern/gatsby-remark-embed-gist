@@ -9,7 +9,7 @@ sudo: false
 
 install:
   - yarn install
-  - yarn install -g codecov
+  - yarn global add codecov
 
 script:
   - yarn run test:coverage

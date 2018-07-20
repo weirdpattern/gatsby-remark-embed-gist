@@ -1,15 +1,20 @@
 language: node_js
+
 node_js:
   - "8"
   - "9"
   - "10"
+
+sudo: false
+
 install:
-  - npm install -g codecov
+  - yarn install
+  - yarn install -g codecov
+
 script:
   - yarn run test:coverage
   - codecov
-git:
-  depth: 3
+
 cache:
   yarn: true
   directories:

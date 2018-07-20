@@ -14,6 +14,10 @@ block using the `gist:` protocol.
 
 ```md
 `gist:[<username>/]<gist_id>[#<gist_file>]`
+
+or 
+
+`gist:[<username>/]<gist_id>[?file=<gist_file>&highlights=<number|ranges>]`
 ```
 
 Where:  
@@ -21,7 +25,13 @@ Where:
 Can be defaulted via configuration.
 - **gist_id**, is the id of the gist to be accessed.   
 This is the hash value in the gist url, e.g. https://gist.github.com/<username\>/`ce54fdb1e5621b5966e146026995b974`).
-- **gist_file**, is the name of the file in the gist to be accessed.
+- **gist_file**, is the name of the file in the gist to be accessed.  
+
+Highlights can be defined using:
+- A single number (e.g. `highlights=1`)
+- A list of numbers (e.g. `highlights=1,4`) 
+- A range of numbers (e.g. `highlights=1-4`)
+- A combination of all above (e.g. `highlights=1,3,7-9`)  
 
 ## Installation
 

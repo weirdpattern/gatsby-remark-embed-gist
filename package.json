@@ -33,7 +33,7 @@
     "precommit": "lint-staged && npm test",
     "test": "jest",
     "test:verbose": "jest --verbose",
-    "test:coverage": "jest --coverage",
+    "test:coverage": "jest --coverage --runInBand --no-cache",
     "release": "yarn run clean && yarn install && yarn run build && standard-version"
   },
   "devDependencies": {

@@ -61,6 +61,7 @@
   },
   "dependencies": {
     "async-unist-util-visit": "^1.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "cheerio": "^1.0.0-rc.2",
     "parse-numeric-range": "^0.0.2",
     "request": "^2.87.0",
@@ -90,6 +91,7 @@
     ],
     "plugins": [
       "add-module-exports",
+      "transform-runtime",
       "transform-object-rest-spread"
     ]
   },

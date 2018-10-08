@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "name": "gatsby-remark-embed-gist",
   "description": "Gatsby remark gists preprocessor",
   "author": {
@@ -26,8 +26,8 @@
     "plugin"
   ],
   "scripts": {
-    "build": "BABEL_ENV=production babel src --out-dir .",
-    "clean": "rimraf node_modules",
+    "build": "cross-env BABEL_ENV=production babel src --out-dir .",
+    "clean": "rimraf ./node_modules",
     "format": "prettier --write ./{src,specs}/{,**}/*.js",
     "lint": "eslint ./{src,specs}/{,**}/*.js",
     "precommit": "lint-staged && npm test",
@@ -44,6 +44,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.2.0",
     "eslint": "^5.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-jest": "^21.18.0",

@@ -131,7 +131,7 @@ export default async ({ markdownAST }, options = {}) => {
       const $ = cheerio.load(content.div);
       const file = query.file.replace(/[^a-zA-Z0-9_]+/, "-");
       query.highlights.forEach(line => {
-        $(`#file-${file}-LC${line}`).addClass("highlighted");
+        $(`#file-${file.toLowerCase()}-LC${line}`).addClass("highlighted");
       });
 
       html = $.html();

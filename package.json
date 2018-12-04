@@ -33,7 +33,7 @@
     "test": "jest",
     "test:verbose": "jest --verbose",
     "test:coverage": "jest --coverage --runInBand --no-cache",
-    "release": "yarn run clean && yarn install && yarn run build && ./node_modules/.bin/standard-version"
+    "release": "yarn run build && ./node_modules/.bin/standard-version"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

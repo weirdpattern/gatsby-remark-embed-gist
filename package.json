@@ -30,7 +30,6 @@
     "clean": "rimraf ./node_modules",
     "format": "prettier --write ./{src,specs}/{,**}/*.js",
     "lint": "eslint ./{src,specs}/{,**}/*.js",
-    "precommit": "lint-staged && npm test",
     "test": "jest",
     "test:verbose": "jest --verbose",
     "test:coverage": "jest --coverage --runInBand --no-cache",
@@ -39,24 +38,24 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.6",
-    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-add-module-exports": "^1.0.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "cross-env": "^5.2.0",
-    "eslint": "^5.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-jest": "^21.18.0",
-    "eslint-plugin-json": "^1.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-jest": "^22.1.1",
+    "eslint-plugin-json": "^1.3.2",
     "eslint-plugin-filenames": "^1.3.2",
-    "eslint-plugin-prettier": "^2.6.2",
-    "husky": "^0.14.3",
-    "jest": "^23.4.1",
-    "lint-staged": "^7.2.0",
-    "prettier": "^1.13.7",
-    "react": "^16.4.1",
-    "remark": "^9.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "husky": "^1.2.0",
+    "jest": "^23.6.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.3",
+    "react": "^16.6.3",
+    "remark": "^10.0.1",
     "rimraf": "^2.6.2",
     "standard-version": "^4.4.0"
   },
@@ -65,7 +64,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "cheerio": "^1.0.0-rc.2",
     "parse-numeric-range": "^0.0.2",
-    "request": "^2.87.0",
+    "request": "^2.88.0",
     "request-promise": "^4.2.2"
   },
   "peerDependencies": {
@@ -160,6 +159,11 @@
       "jest/no-identical-title": "error",
       "jest/valid-expect": "error",
       "prettier/prettier": "error"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && npm test"
     }
   },
   "lint-staged": {

@@ -1,6 +1,5 @@
-node_modules
-coverage
-src
-specs
-
-yarn.lock
+**/*
+!gatsby-ssr.js
+!index.js
+!package.json
+!README.md

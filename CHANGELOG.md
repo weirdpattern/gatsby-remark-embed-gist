@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.5"></a>
+## [1.1.5](https://github.com/weirdpattern/gatsby-remark-embed-gist/compare/v1.1.4...v1.1.5) (2019-01-16)
+
+
+### Bug Fixes
+
+* **gatsby-ssr:** fixes missing key warning in react ([#6](https://github.com/weirdpattern/gatsby-remark-embed-gist/issues/6)) ([1220f17](https://github.com/weirdpattern/gatsby-remark-embed-gist/commit/1220f17))
+
+
+
 <a name="1.1.4"></a>
 ## [1.1.4](https://github.com/weirdpattern/gatsby-remark-embed-gist/compare/v1.1.3...v1.1.4) (2018-12-04)
 

@@ -16,6 +16,7 @@ export function onRenderBody({ setHeadComponents }, options = {}) {
   if (options.includeDefaultCss !== false) {
     return setHeadComponents([
       <link
+        key="gist-embeded-87673c31a5b37b5e6556b63e1081ebbc"
         rel="stylesheet"
         href="https://assets-cdn.github.com/assets/gist-embed-87673c31a5b37b5e6556b63e1081ebbc.css"
       />

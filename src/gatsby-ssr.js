@@ -16,9 +16,9 @@ export function onRenderBody({ setHeadComponents }, options = {}) {
   if (options.includeDefaultCss !== false) {
     return setHeadComponents([
       <link
-        key="gist-embeded-87673c31a5b37b5e6556b63e1081ebbc"
+        key="gist-embeded-b3b573358bfc66d89e1e95dbf8319c09"
         rel="stylesheet"
-        href="https://assets-cdn.github.com/assets/gist-embed-87673c31a5b37b5e6556b63e1081ebbc.css"
+        href="https://github.githubassets.com/assets/gist-embed-b3b573358bfc66d89e1e95dbf8319c09.css"
       />
     ]);
   }

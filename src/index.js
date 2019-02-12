@@ -5,13 +5,19 @@ import rangeParser from "parse-numeric-range";
 import request from "request-promise";
 import visit from "async-unist-util-visit";
 
-// default base url
-const baseUrl = "https://gist.github.com";
+const defaultUrl = "https://gist.github.com";
 
 /**
  * @typedef {object} PluginOptions
  * @property {string} username the default gist user.
  * @property {boolean} includeDefaultCss a flag indicating the default css should be included
+ * @property {OverridePluginOptions} overrides an object with overrides
+ */
+
+/**
+ * @typedef {object} OverridePluginOptions
+ * @property {string} gistUrl the base gist url.
+ * @property {string} gistCssUrl the gist css url.
  */
 
 /**
@@ -96,6 +102,7 @@ function buildUrl(value, options, file) {
   }
 
   // builds the url and completes it with the file if any
+  const baseUrl = options.overrides.gistUrl || defaultUrl;
   let url = `${baseUrl}/${username}/${id}.json`;
   if (file != null) {
     url += `?file=${file}`;
@@ -111,6 +118,9 @@ function buildUrl(value, options, file) {
  * @returns {*} the markdown ast.
  */
 export default async ({ markdownAST }, options = {}) => {
+  // ensure overrides are created
+  options.overrides = options.overrides || {};
+
   // this returns a promise that will fulfill immediately for everything
   // that is not an inlineCode that starts with `gist:`
   return await visit(markdownAST, async node => {

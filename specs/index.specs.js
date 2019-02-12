@@ -12,8 +12,8 @@ describe("gatsby-remark-embedded-gist", () => {
     );
 
     const processed = await plugin({ markdownAST });
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -23,8 +23,8 @@ describe("gatsby-remark-embedded-gist", () => {
     );
 
     const processed = await plugin({ markdownAST });
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -34,8 +34,8 @@ describe("gatsby-remark-embedded-gist", () => {
     );
 
     const processed = await plugin({ markdownAST });
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -45,8 +45,8 @@ describe("gatsby-remark-embedded-gist", () => {
     );
 
     const processed = await plugin({ markdownAST });
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -56,8 +56,8 @@ describe("gatsby-remark-embedded-gist", () => {
     );
 
     const processed = await plugin({ markdownAST });
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -67,8 +67,8 @@ describe("gatsby-remark-embedded-gist", () => {
     );
 
     const processed = await plugin({ markdownAST });
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -78,8 +78,8 @@ describe("gatsby-remark-embedded-gist", () => {
     );
 
     const processed = await plugin({ markdownAST });
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -90,8 +90,8 @@ describe("gatsby-remark-embedded-gist", () => {
       { markdownAST },
       { username: "weirdpattern" }
     );
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -104,8 +104,8 @@ describe("gatsby-remark-embedded-gist", () => {
       { markdownAST },
       { username: "weirdpattern" }
     );
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -118,8 +118,8 @@ describe("gatsby-remark-embedded-gist", () => {
       { markdownAST },
       { username: "weirdpattern" }
     );
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -132,8 +132,8 @@ describe("gatsby-remark-embedded-gist", () => {
       { markdownAST },
       { username: "weirdpattern" }
     );
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -146,8 +146,8 @@ describe("gatsby-remark-embedded-gist", () => {
       { markdownAST },
       { username: "weirdpattern" }
     );
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -160,8 +160,8 @@ describe("gatsby-remark-embedded-gist", () => {
       { markdownAST },
       { username: "weirdpattern" }
     );
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -174,8 +174,8 @@ describe("gatsby-remark-embedded-gist", () => {
       { markdownAST },
       { username: "weirdpattern" }
     );
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -185,8 +185,8 @@ describe("gatsby-remark-embedded-gist", () => {
     );
 
     const processed = await plugin({ markdownAST }, { username: "john" });
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -196,8 +196,8 @@ describe("gatsby-remark-embedded-gist", () => {
     );
 
     const processed = await plugin({ markdownAST }, { username: "john" });
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -207,8 +207,8 @@ describe("gatsby-remark-embedded-gist", () => {
     );
 
     const processed = await plugin({ markdownAST }, { username: "john" });
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -218,8 +218,8 @@ describe("gatsby-remark-embedded-gist", () => {
     );
 
     const processed = await plugin({ markdownAST }, { username: "john" });
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -229,8 +229,8 @@ describe("gatsby-remark-embedded-gist", () => {
     );
 
     const processed = await plugin({ markdownAST }, { username: "john" });
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -240,8 +240,8 @@ describe("gatsby-remark-embedded-gist", () => {
     );
 
     const processed = await plugin({ markdownAST }, { username: "john" });
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -251,8 +251,8 @@ describe("gatsby-remark-embedded-gist", () => {
     );
 
     const processed = await plugin({ markdownAST }, { username: "john" });
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
@@ -296,8 +296,36 @@ describe("gatsby-remark-embedded-gist", () => {
     const originalMarkdownAST = markdownAST;
 
     const processed = await plugin({ markdownAST });
-    expect(processed).toBeTruthy();
 
+    expect(processed).toBeTruthy();
     expect(markdownAST).toBe(originalMarkdownAST);
+  });
+
+  it("defaults the url when one is not provided", async () => {
+    const markdownAST = remark.parse(
+      "`gist:ce54fdb1e5621b5966e146026995b974?file=example.sh&highlights=2,8-10,12-14`"
+    );
+
+    const processed = await plugin(
+      { markdownAST },
+      { username: "weirdpattern" }
+    );
+
+    expect(processed).toBeTruthy();
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("uses the url when one is provided", async () => {
+    const markdownAST = remark.parse(
+      "`gist:ce54fdb1e5621b5966e146026995b974?file=example.sh&highlights=2,8-10,12-14`"
+    );
+
+    const processed = await plugin(
+      { markdownAST },
+      { username: "weirdpattern", overrides: { gistUrl: "https://gist.com" } }
+    );
+
+    expect(processed).toBeTruthy();
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 });

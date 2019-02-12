@@ -51,11 +51,25 @@ Highlights can be defined using:
           // Optional:
 
           // the github handler whose gists are to be accessed
-          username: 'weirdpattern',
+          username: "weirdpattern",
 
           // a flag indicating whether the github default gist css should be included or not
           // default: true
-          includeDefaultCss: true
+          includeDefaultCss: true,
+
+          // override values
+          overrides: {
+
+            // overrides the gist base url.
+            // use this if github ever decides to change the gist url.
+            // default: https://gist.github.com
+            gistUrl: "https://gist.github.com",
+
+            // overrides the gist css url.
+            // use this if github ever decides to change the gist css url.
+            // default: https://github.githubassets.com/assets/gist-embed-b3b573358bfc66d89e1e95dbf8319c09.css
+            gistCssUrl: "https://github.githubassets.com/assets/gist-embed-b3b573358bfc66d89e1e95dbf8319c09.css"
+          }
         }
       }
     ]

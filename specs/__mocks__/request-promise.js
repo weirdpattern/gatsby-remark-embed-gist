@@ -14,6 +14,11 @@ export default url => {
     "https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974.json?file=example.sh"
   ) {
     return JSON.stringify(require("./3.json"));
+  } else if (
+    url ===
+    "https://gist.com/weirdpattern/ce54fdb1e5621b5966e146026995b974.json?file=example.sh"
+  ) {
+    return JSON.stringify(require("./4.json"));
   }
   return false;
 };

@@ -10,7 +10,7 @@ node_js:
 sudo: false
 
 install:
-  - yarn install
+  - yarn install --ignore-engines
   - yarn global add codecov
 
 script:

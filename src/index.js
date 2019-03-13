@@ -113,9 +113,9 @@ function buildUrl(value, options, file) {
 export default async ({ markdownAST }, options = {}) => {
   // this returns a promise that will fulfill immediately for everything
   // that is not an inlineCode that starts with `gist:`
-  return await visit(markdownAST, async node => {
+  return await visit(markdownAST, "inlineCode", async node => {
     // validate pre-requisites.
-    if (node.type !== "inlineCode" || !node.value.startsWith("gist:")) return;
+    if (!node.value.startsWith("gist:")) return;
 
     // get the query string and build the url
     const query = getQuery(node.value.substring(5));
@@ -138,7 +138,7 @@ export default async ({ markdownAST }, options = {}) => {
     }
 
     node.type = "html";
-    node.value = html;
+    node.value = html.trim();
 
     return markdownAST;
   });

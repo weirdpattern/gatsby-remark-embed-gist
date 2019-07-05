@@ -137,8 +137,10 @@ export default async ({ markdownAST }, options = {}) => {
       html = $.html();
     }
 
-    node.type = "html";
-    node.value = html.trim();
+    node = Object.assign(node, {
+      type: "html",
+      value: html.trim()
+    });
 
     return markdownAST;
   });

@@ -36,36 +36,37 @@
     "release": "yarn run build && ./node_modules/.bin/standard-version"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^10.0.1",
-    "babel-plugin-add-module-exports": "^1.0.0",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.5.0",
+    "@babel/plugin-transform-runtime": "^7.5.0",
+    "babel-eslint": "^10.0.2",
     "cross-env": "^5.2.0",
-    "eslint": "^5.9.0",
-    "eslint-config-prettier": "^3.3.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-filenames": "^1.3.2",
-    "eslint-plugin-jest": "^22.1.1",
-    "eslint-plugin-json": "^1.3.2",
-    "eslint-plugin-prettier": "^3.0.0",
-    "husky": "^1.2.0",
-    "jest": "^23.6.0",
-    "lint-staged": "^8.1.0",
-    "prettier": "^1.15.3",
-    "react": "^16.6.3",
+    "eslint-plugin-jest": "^22.7.2",
+    "eslint-plugin-json": "^1.4.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^3.0.0",
+    "jest": "^24.8.0",
+    "lint-staged": "^9.0.2",
+    "prettier": "^1.18.2",
+    "react": "^16.8.6",
     "remark": "^10.0.1",
     "rimraf": "^2.6.2",
-    "standard-version": "^4.4.0"
+    "standard-version": "^6.0.1"
   },
   "dependencies": {
+    "@babel/runtime": "^7.5.0",
     "async-unist-util-visit": "^1.0.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "cheerio": "^1.0.0-rc.2",
+    "cheerio": "^1.0.0-rc.3",
     "parse-numeric-range": "^0.0.2",
     "request": "^2.88.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.4"
   },
   "peerDependencies": {
     "gatsby": "*",
@@ -75,24 +76,20 @@
   "babel": {
     "presets": [
       [
-        "env",
+        "@babel/preset-env",
         {
           "targets": {
-            "browsers": [
-              "last 4 versions",
-              "safari >= 7",
-              "ie >= 9"
-            ],
+            "node": true,
             "uglify": true
           }
         }
       ],
-      "react"
+      "@babel/preset-react"
     ],
     "plugins": [
-      "add-module-exports",
-      "transform-runtime",
-      "transform-object-rest-spread"
+      "@babel/plugin-transform-runtime",
+      "@babel/plugin-transform-modules-commonjs",
+      "@babel/plugin-proposal-object-rest-spread"
     ]
   },
   "eslintConfig": {

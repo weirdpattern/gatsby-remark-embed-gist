@@ -1,6 +1,15 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.1.8](https://github.com/weirdpattern/gatsby-remark-embed-gist/compare/v1.1.7...v1.1.8) (2019-07-05)
+
+
+### Build System
+
+* update travis configuration ([#17](https://github.com/weirdpattern/gatsby-remark-embed-gist/issues/17)) ([81c5a5f](https://github.com/weirdpattern/gatsby-remark-embed-gist/commit/81c5a5f))
+
+
 
 <a name="1.1.7"></a>
 ## [1.1.7](https://github.com/weirdpattern/gatsby-remark-embed-gist/compare/v1.1.6...v1.1.7) (2019-03-13)

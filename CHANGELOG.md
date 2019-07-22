@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.9](https://github.com/weirdpattern/gatsby-remark-embed-gist/compare/v1.1.8...v1.1.9) (2019-07-22)
+
+
+### Bug Fixes
+
+* **babel:** babel export default module ([#19](https://github.com/weirdpattern/gatsby-remark-embed-gist/issues/19)) ([b67460f](https://github.com/weirdpattern/gatsby-remark-embed-gist/commit/b67460f))
+
+
+
 ### [1.1.8](https://github.com/weirdpattern/gatsby-remark-embed-gist/compare/v1.1.7...v1.1.8) (2019-07-05)
 
 

@@ -43,13 +43,18 @@ function isValid(query) {
  * @returns {object} the query object.
  */
 function getQuery(value) {
-  const [, qs] = value.split(/[?#]/);
+  const hasHash = value.includes("#");
+  const hasParams = value.includes("?");
 
-  // if there is no file, then return an empty object
-  if (qs == null) return { highlights: [] };
+  const split = value.split(/[?#]/);
+  const params = hasParams ? querystring.parse(split[hasHash ? 2 : 1]) : null;
 
-  // if # is used, then force the query object
-  const query = value.indexOf("#") > -1 ? { file: qs } : querystring.parse(qs);
+  const file = hasHash ? split[1] : params ? params.file : null;
+
+  // // if there is no file, then return an empty object
+  if (file == null) return { highlights: [], lines: [] };
+
+  const query = { file, ...params };
 
   // validate the query
   if (!isValid(query)) {
@@ -63,8 +68,16 @@ function getQuery(value) {
   } else if (Array.isArray(query.highlights)) {
     highlights = query.highlights;
   }
-
   query.highlights = highlights;
+
+  // get the range of lines to display
+  let lines = [];
+  if (typeof query.lines === "string") {
+    lines = rangeParser.parse(query.lines);
+  } else if (Array.isArray(query.lines)) {
+    lines = query.lines;
+  }
+  query.lines = lines;
 
   return query;
 }
@@ -125,14 +138,35 @@ export default async ({ markdownAST }, options = {}) => {
     const body = await request(url);
     const content = JSON.parse(body);
 
-    // highlight the specify lines, if any
     let html = content.div;
-    if (query.highlights.length > 0) {
-      const $ = cheerio.load(content.div);
-      const file = query.file.replace(/[^a-zA-Z0-9_]+/g, "-").toLowerCase();
-      query.highlights.forEach(line => {
-        $(`#file-${file}-LC${line}`).addClass("highlighted");
-      });
+    const hasHighlights = query.highlights.length > 0;
+    const hasLines = query.lines.length > 0;
+
+    if (hasHighlights) {
+      const $ = cheerio.load(html);
+      const file = query.file
+        ? query.file.replace(/[^a-zA-Z0-9_]+/g, "-").toLowerCase()
+        : "";
+
+      // highlight the specify lines, if any
+      if (hasHighlights) {
+        query.highlights.forEach(line => {
+          $(`#file-${file}-LC${line}`).addClass("highlighted");
+        });
+      }
+
+      // remove the specific lines, if any
+      if (hasLines) {
+        const codeLines = rangeParser.parse(`1-${$("table tr").length}`);
+        codeLines.forEach(line => {
+          if (query.lines.includes(line)) {
+            return;
+          }
+          $(`#file-${file}-LC${line}`)
+            .parent()
+            .remove();
+        });
+      }
 
       html = $.html();
     }

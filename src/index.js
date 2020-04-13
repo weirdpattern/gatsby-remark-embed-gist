@@ -43,13 +43,18 @@ function isValid(query) {
  * @returns {object} the query object.
  */
 function getQuery(value) {
-  const [, qs] = value.split(/[?#]/);
+  const hasHash = value.includes("#");
+  const hasParams = value.includes("?");
 
-  // if there is no file, then return an empty object
-  if (qs == null) return { highlights: [] };
+  const split = value.split(/[?#]/);
+  const params = hasParams ? querystring.parse(split[hasHash ? 2 : 1]) : null;
 
-  // if # is used, then force the query object
-  const query = value.indexOf("#") > -1 ? { file: qs } : querystring.parse(qs);
+  const file = hasHash ? split[1] : params ? params.file : null;
+
+  // // if there is no file, then return an empty object
+  if (file == null) return { highlights: [], lines: [] };
+
+  const query = { file, ...params };
 
   // validate the query
   if (!isValid(query)) {
@@ -58,6 +63,7 @@ function getQuery(value) {
 
   // explode the highlights ranges, if any
   let highlights = [];
+
   if (typeof query.highlights === "string") {
     highlights = rangeParser.parse(query.highlights);
   } else if (Array.isArray(query.highlights)) {
@@ -65,6 +71,15 @@ function getQuery(value) {
   }
 
   query.highlights = highlights;
+
+  // get the range of lines to display
+  let lines = [];
+  if (typeof query.lines === "string") {
+    lines = rangeParser.parse(query.lines);
+  } else if (Array.isArray(query.lines)) {
+    lines = query.lines;
+  }
+  query.lines = lines;
 
   return query;
 }
@@ -128,10 +143,26 @@ export default async ({ markdownAST }, options = {}) => {
     // highlight the specify lines, if any
     let html = content.div;
     if (query.highlights.length > 0) {
-      const $ = cheerio.load(content.div);
+      const $ = cheerio.load(html);
       const file = query.file.replace(/[^a-zA-Z0-9_]+/g, "-").toLowerCase();
       query.highlights.forEach(line => {
         $(`#file-${file}-LC${line}`).addClass("highlighted");
+      });
+
+      html = $.html();
+    }
+
+    if (query.lines.length > 0) {
+      const $ = cheerio.load(html);
+      const file = query.file.replace(/[^a-zA-Z0-9_]+/g, "-").toLowerCase();
+      const codeLines = rangeParser.parse(`1-${$("table tr").length}`);
+      codeLines.forEach(line => {
+        if (query.lines.includes(line)) {
+          return;
+        }
+        $(`#file-${file}-LC${line}`)
+          .parent()
+          .remove();
       });
 
       html = $.html();

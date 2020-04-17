@@ -63,6 +63,7 @@ function getQuery(value) {
 
   // explode the highlights ranges, if any
   let highlights = [];
+
   if (typeof query.highlights === "string") {
     highlights = rangeParser.parse(query.highlights);
   } else if (Array.isArray(query.highlights)) {
@@ -142,7 +143,7 @@ export default async ({ markdownAST }, options = {}) => {
     const hasHighlights = query.highlights.length > 0;
     const hasLines = query.lines.length > 0;
 
-    if (hasHighlights) {
+    if (hasHighlights || hasLines) {
       const $ = cheerio.load(html);
       const file = query.file
         ? query.file.replace(/[^a-zA-Z0-9_]+/g, "-").toLowerCase()

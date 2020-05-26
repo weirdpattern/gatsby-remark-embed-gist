@@ -16,10 +16,19 @@ export function onRenderBody({ setHeadComponents }, options = {}) {
   if (options.includeDefaultCss !== false) {
     return setHeadComponents([
       <link
-        key="gist-embeded-b3b573358bfc66d89e1e95dbf8319c09"
-        rel="stylesheet"
+        as="style"
         href="https://github.githubassets.com/assets/gist-embed-b3b573358bfc66d89e1e95dbf8319c09.css"
-      />
+        key="gist-embeded-b3b573358bfc66d89e1e95dbf8319c09"
+        onload="this.onload=null;this.rel='stylesheet'"
+        rel="preload"
+      />,
+      <noscript>
+        <link
+          href="https://github.githubassets.com/assets/gist-embed-b3b573358bfc66d89e1e95dbf8319c09.css"
+          key="gist-embeded-b3b573358bfc66d89e1e95dbf8319c09"
+          rel="stylesheet"
+        />
+      </noscript>
     ]);
   }
 

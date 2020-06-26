@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.10](https://github.com/weirdpattern/gatsby-remark-embed-gist/compare/v1.1.9...v1.1.10) (2020-06-26)
+
+
+### Bug Fixes
+
+* **tests:** fixes broken tests ([#28](https://github.com/weirdpattern/gatsby-remark-embed-gist/issues/28)) ([c086c3a](https://github.com/weirdpattern/gatsby-remark-embed-gist/commit/c086c3a))
+
+
+
 ### [1.1.9](https://github.com/weirdpattern/gatsby-remark-embed-gist/compare/v1.1.8...v1.1.9) (2019-07-22)
 
 

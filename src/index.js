@@ -1,7 +1,7 @@
 import querystring from "querystring";
 
 import cheerio from "cheerio";
-import rangeParser from "parse-numeric-range";
+import parse from "parse-numeric-range";
 import request from "request-promise";
 import visit from "async-unist-util-visit";
 
@@ -89,7 +89,7 @@ function getQuery(value) {
   // get the range of highlights to render
   let highlights = [];
   if (typeof query.highlights === "string") {
-    highlights = rangeParser.parse(query.highlights);
+    highlights = parse(query.highlights);
   } else if (Array.isArray(query.highlights)) {
     highlights = query.highlights;
   }
@@ -98,7 +98,7 @@ function getQuery(value) {
   // get the range of lines to display
   let lines = [];
   if (typeof query.lines === "string") {
-    lines = rangeParser.parse(query.lines);
+    lines = parse(query.lines);
   } else if (Array.isArray(query.lines)) {
     lines = query.lines;
   }
@@ -151,7 +151,7 @@ function buildUrl(value, options, file) {
 export default async ({ markdownAST }, options = {}) => {
   // this returns a promise that will fulfill immediately for everything
   // that is not an inlineCode that starts with `gist:`
-  return await visit(markdownAST, "inlineCode", async node => {
+  return await visit(markdownAST, "inlineCode", async (node) => {
     // validate pre-requisites.
     if (!node.value.startsWith("gist:")) return;
 
@@ -175,20 +175,18 @@ export default async ({ markdownAST }, options = {}) => {
 
       // highlight the specify lines, if any
       if (hasHighlights) {
-        query.highlights.forEach(line => {
+        query.highlights.forEach((line) => {
           $(`#file-${file}-LC${line}`).addClass("highlighted");
         });
       }
 
       // remove the specific lines, if any
       if (hasLines) {
-        const codeLines = rangeParser.parse(`1-${$("table tr").length}`);
-        codeLines.forEach(line => {
+        const codeLines = parse(`1-${$("table tr").length}`);
+        codeLines.forEach((line) => {
           if (query.lines.includes(line)) return;
 
-          $(`#file-${file}-LC${line}`)
-            .parent()
-            .remove();
+          $(`#file-${file}-LC${line}`).parent().remove();
         });
       }
 

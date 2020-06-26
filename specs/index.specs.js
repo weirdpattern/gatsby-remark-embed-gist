@@ -3,7 +3,7 @@ jest.mock("request-promise");
 import remark from "remark";
 import plugin from "../src/index";
 
-const getNodeContent = node => node.children[0].children[0];
+const getNodeContent = (node) => node.children[0].children[0];
 
 describe("gatsby-remark-embedded-gist", () => {
   it("generates an embedded gist with username", async () => {

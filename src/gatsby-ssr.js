@@ -19,10 +19,10 @@ export function onRenderBody({ setHeadComponents }, options = {}) {
         as="style"
         href="https://github.githubassets.com/assets/gist-embed-b3b573358bfc66d89e1e95dbf8319c09.css"
         key="gist-embeded-b3b573358bfc66d89e1e95dbf8319c09"
-        onload="this.onload=null;this.rel='stylesheet'"
+        onLoad="this.onload=null;this.rel='stylesheet'"
         rel="preload"
       />,
-      <noscript>
+      <noscript key="gist-embeded-noscript-b3b573358bfc66d89e1e95dbf8319c09">
         <link
           href="https://github.githubassets.com/assets/gist-embed-b3b573358bfc66d89e1e95dbf8319c09.css"
           key="gist-embeded-b3b573358bfc66d89e1e95dbf8319c09"

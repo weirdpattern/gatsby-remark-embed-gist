@@ -27,7 +27,9 @@ const baseUrl = "https://gist.github.com";
  */
 function isValid(query) {
   if (query == null) return false;
-  if (query.file == null && query.highlights == null) return false;
+  if (query.file == null && query.highlights == null && query.lines == null) {
+    return false;
+  }
 
   // leaving this for future enhancements to the query object
 
@@ -43,27 +45,49 @@ function isValid(query) {
  * @returns {object} the query object.
  */
 function getQuery(value) {
-  const hasHash = value.includes("#");
-  const hasParams = value.includes("?");
+  const hash = value.includes("#");
 
-  const split = value.split(/[?#]/);
-  const params = hasParams ? querystring.parse(split[hasHash ? 2 : 1]) : null;
+  // this will give us
+  // a) qs with length 0 - no file, no querystring
+  // b) qs with length 1 - either a #file or a ?querystring
+  // c) qs with length 2 - a #file and a ?querystring
+  // d) qs with length > 2 - malformed
+  const [, ...qs] = value.split(/[?#]/);
 
-  const file = hasHash ? split[1] : params ? params.file : null;
+  // a) and d) are easy
+  if (qs.length === 0) return { highlights: [], lines: [] };
+  if (qs.length > 2) {
+    throw new Error("Malformed query. Check your 'gist:' imports");
+  }
 
-  // // if there is no file, then return an empty object
-  if (file == null) return { highlights: [], lines: [] };
+  let query;
 
-  const query = { file, ...params };
+  // b) is tricky, could be a #file or a ?querystring
+  if (qs.length === 1) {
+    if (hash) {
+      query = { file: qs[0] };
+    } else if (qs[0].includes("=")) {
+      query = querystring.parse(qs[0]);
+    } else {
+      throw new Error("Malformed query. Check your 'gist:' imports");
+    }
+  } else {
+    query = { file: qs[0], ...querystring.parse(qs[1]) };
+  }
 
-  // validate the query
+  // at this point we have an object such as
+  // {
+  //   file?: string,
+  //   highlights?: string || string[],
+  //   lines?: string || string[]
+  // }
+  // so we validate
   if (!isValid(query)) {
     throw new Error("Malformed query. Check your 'gist:' imports");
   }
 
-  // explode the highlights ranges, if any
+  // get the range of highlights to render
   let highlights = [];
-
   if (typeof query.highlights === "string") {
     highlights = rangeParser.parse(query.highlights);
   } else if (Array.isArray(query.highlights)) {
@@ -140,8 +164,8 @@ export default async ({ markdownAST }, options = {}) => {
     const content = JSON.parse(body);
 
     let html = content.div;
-    const hasHighlights = query.highlights.length > 0;
     const hasLines = query.lines.length > 0;
+    const hasHighlights = query.highlights.length > 0;
 
     if (hasHighlights || hasLines) {
       const $ = cheerio.load(html);
@@ -160,9 +184,8 @@ export default async ({ markdownAST }, options = {}) => {
       if (hasLines) {
         const codeLines = rangeParser.parse(`1-${$("table tr").length}`);
         codeLines.forEach(line => {
-          if (query.lines.includes(line)) {
-            return;
-          }
+          if (query.lines.includes(line)) return;
+
           $(`#file-${file}-LC${line}`)
             .parent()
             .remove();

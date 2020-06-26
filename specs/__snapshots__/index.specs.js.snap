@@ -1,5 +1,535 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`gatsby-remark-embedded-gist generates an embedded gist with #file and ?querystring 1`] = `
+Object {
+  "position": Position {
+    "end": Object {
+      "column": 92,
+      "line": 1,
+      "offset": 91,
+    },
+    "indent": Array [],
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "html",
+  "value": "<html><head></head><body><div id=\\"gist90436059\\" class=\\"gist\\">
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+    
+
+  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
+      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+      <tbody><tr>
+        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
+        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-example-sh\\" class=\\"file\\">
+    
+
+  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
+      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+      <tbody><tr>
+        <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
+        <td id=\\"file-example-sh-LC3\\" class=\\"blob-code blob-code-inner js-file-line\\">  hello</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L4\\" class=\\"blob-num js-line-number\\" data-line-number=\\"4\\"></td>
+        <td id=\\"file-example-sh-LC4\\" class=\\"blob-code blob-code-inner js-file-line\\">  </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L5\\" class=\\"blob-num js-line-number\\" data-line-number=\\"5\\"></td>
+        <td id=\\"file-example-sh-LC5\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects standard error (no error in this case)</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
+        <td id=\\"file-example-sh-LC7\\" class=\\"blob-code blob-code-inner js-file-line\\">  hello</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L8\\" class=\\"blob-num js-line-number\\" data-line-number=\\"8\\"></td>
+        <td id=\\"file-example-sh-LC8\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">  </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L9\\" class=\\"blob-num js-line-number\\" data-line-number=\\"9\\"></td>
+        <td id=\\"file-example-sh-LC9\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects standard out to /dev/null (so no output) </span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+      </tr>
+      
+      <tr>
+        <td id=\\"file-example-sh-L12\\" class=\\"blob-num js-line-number\\" data-line-number=\\"12\\"></td>
+        <td id=\\"file-example-sh-LC12\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects everything to /dev/null (so no output)</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
+        <td id=\\"file-example-sh-LC14\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">
+</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L15\\" class=\\"blob-num js-line-number\\" data-line-number=\\"15\\"></td>
+        <td id=\\"file-example-sh-LC15\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection (causing error)    </span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L16\\" class=\\"blob-num js-line-number\\" data-line-number=\\"16\\"></td>
+        <td id=\\"file-example-sh-LC16\\" class=\\"blob-code blob-code-inner js-file-line\\">$ unlink unexisting-file.sh </td>
+      </tr>
+      
+      
+      
+      
+      
+      
+      
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
+        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-syntax-text\\" class=\\"file\\">
+    
+
+  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
+      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+      <tbody><tr>
+        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
+        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+</div>
+</body></html>",
+}
+`;
+
+exports[`gatsby-remark-embedded-gist generates an embedded gist with #file and ?querystring just hightlights 1`] = `
+Object {
+  "position": Position {
+    "end": Object {
+      "column": 75,
+      "line": 1,
+      "offset": 74,
+    },
+    "indent": Array [],
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "html",
+  "value": "<html><head></head><body><div id=\\"gist90436059\\" class=\\"gist\\">
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+    
+
+  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
+      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+      <tbody><tr>
+        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
+        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-example-sh\\" class=\\"file\\">
+    
+
+  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
+      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+      <tbody><tr>
+        <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
+        <td id=\\"file-example-sh-LC3\\" class=\\"blob-code blob-code-inner js-file-line\\">  hello</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L4\\" class=\\"blob-num js-line-number\\" data-line-number=\\"4\\"></td>
+        <td id=\\"file-example-sh-LC4\\" class=\\"blob-code blob-code-inner js-file-line\\">  </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L5\\" class=\\"blob-num js-line-number\\" data-line-number=\\"5\\"></td>
+        <td id=\\"file-example-sh-LC5\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects standard error (no error in this case)</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
+        <td id=\\"file-example-sh-LC7\\" class=\\"blob-code blob-code-inner js-file-line\\">  hello</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L8\\" class=\\"blob-num js-line-number\\" data-line-number=\\"8\\"></td>
+        <td id=\\"file-example-sh-LC8\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">  </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L9\\" class=\\"blob-num js-line-number\\" data-line-number=\\"9\\"></td>
+        <td id=\\"file-example-sh-LC9\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects standard out to /dev/null (so no output) </span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
+        <td id=\\"file-example-sh-LC11\\" class=\\"blob-code blob-code-inner js-file-line\\">  </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L12\\" class=\\"blob-num js-line-number\\" data-line-number=\\"12\\"></td>
+        <td id=\\"file-example-sh-LC12\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects everything to /dev/null (so no output)</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
+        <td id=\\"file-example-sh-LC14\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">
+</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L15\\" class=\\"blob-num js-line-number\\" data-line-number=\\"15\\"></td>
+        <td id=\\"file-example-sh-LC15\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection (causing error)    </span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L16\\" class=\\"blob-num js-line-number\\" data-line-number=\\"16\\"></td>
+        <td id=\\"file-example-sh-LC16\\" class=\\"blob-code blob-code-inner js-file-line\\">$ unlink unexisting-file.sh </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L17\\" class=\\"blob-num js-line-number\\" data-line-number=\\"17\\"></td>
+        <td id=\\"file-example-sh-LC17\\" class=\\"blob-code blob-code-inner js-file-line\\">  unlink: unexisting-file.sh: No such file or directory</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L18\\" class=\\"blob-num js-line-number\\" data-line-number=\\"18\\"></td>
+        <td id=\\"file-example-sh-LC18\\" class=\\"blob-code blob-code-inner js-file-line\\">
+</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L19\\" class=\\"blob-num js-line-number\\" data-line-number=\\"19\\"></td>
+        <td id=\\"file-example-sh-LC19\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects standard error to /dev/null (so no error)</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L20\\" class=\\"blob-num js-line-number\\" data-line-number=\\"20\\"></td>
+        <td id=\\"file-example-sh-LC20\\" class=\\"blob-code blob-code-inner js-file-line\\">$ unlink unexisting-file.sh <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L21\\" class=\\"blob-num js-line-number\\" data-line-number=\\"21\\"></td>
+        <td id=\\"file-example-sh-LC21\\" class=\\"blob-code blob-code-inner js-file-line\\">
+</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L22\\" class=\\"blob-num js-line-number\\" data-line-number=\\"22\\"></td>
+        <td id=\\"file-example-sh-LC22\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects everything to /dev/null (so no error)</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L23\\" class=\\"blob-num js-line-number\\" data-line-number=\\"23\\"></td>
+        <td id=\\"file-example-sh-LC23\\" class=\\"blob-code blob-code-inner js-file-line\\">$ unlink unexisting-file.sh <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null</td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
+        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-syntax-text\\" class=\\"file\\">
+    
+
+  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
+      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+      <tbody><tr>
+        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
+        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+</div>
+</body></html>",
+}
+`;
+
+exports[`gatsby-remark-embedded-gist generates an embedded gist with #file and ?querystring just lines 1`] = `
+Object {
+  "position": Position {
+    "end": Object {
+      "column": 68,
+      "line": 1,
+      "offset": 67,
+    },
+    "indent": Array [],
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "html",
+  "value": "<html><head></head><body><div id=\\"gist90436059\\" class=\\"gist\\">
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+    
+
+  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
+      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+      <tbody><tr>
+        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
+        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-example-sh\\" class=\\"file\\">
+    
+
+  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
+      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+      <tbody><tr>
+        <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
+        <td id=\\"file-example-sh-LC3\\" class=\\"blob-code blob-code-inner js-file-line\\">  hello</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L4\\" class=\\"blob-num js-line-number\\" data-line-number=\\"4\\"></td>
+        <td id=\\"file-example-sh-LC4\\" class=\\"blob-code blob-code-inner js-file-line\\">  </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L5\\" class=\\"blob-num js-line-number\\" data-line-number=\\"5\\"></td>
+        <td id=\\"file-example-sh-LC5\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects standard error (no error in this case)</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
+        <td id=\\"file-example-sh-LC7\\" class=\\"blob-code blob-code-inner js-file-line\\">  hello</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L8\\" class=\\"blob-num js-line-number\\" data-line-number=\\"8\\"></td>
+        <td id=\\"file-example-sh-LC8\\" class=\\"blob-code blob-code-inner js-file-line\\">  </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L9\\" class=\\"blob-num js-line-number\\" data-line-number=\\"9\\"></td>
+        <td id=\\"file-example-sh-LC9\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects standard out to /dev/null (so no output) </span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+      </tr>
+      
+      <tr>
+        <td id=\\"file-example-sh-L12\\" class=\\"blob-num js-line-number\\" data-line-number=\\"12\\"></td>
+        <td id=\\"file-example-sh-LC12\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects everything to /dev/null (so no output)</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
+        <td id=\\"file-example-sh-LC14\\" class=\\"blob-code blob-code-inner js-file-line\\">
+</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L15\\" class=\\"blob-num js-line-number\\" data-line-number=\\"15\\"></td>
+        <td id=\\"file-example-sh-LC15\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection (causing error)    </span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L16\\" class=\\"blob-num js-line-number\\" data-line-number=\\"16\\"></td>
+        <td id=\\"file-example-sh-LC16\\" class=\\"blob-code blob-code-inner js-file-line\\">$ unlink unexisting-file.sh </td>
+      </tr>
+      
+      
+      
+      
+      
+      
+      
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
+        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-syntax-text\\" class=\\"file\\">
+    
+
+  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
+      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+      <tbody><tr>
+        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
+        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+</div>
+</body></html>",
+}
+`;
+
 exports[`gatsby-remark-embedded-gist generates an embedded gist with default username 1`] = `
 Object {
   "position": Position {
@@ -170,9 +700,9 @@ exports[`gatsby-remark-embedded-gist generates an embedded gist with default use
 Object {
   "position": Position {
     "end": Object {
-      "column": 52,
+      "column": 40,
       "line": 1,
-      "offset": 51,
+      "offset": 39,
     },
     "indent": Array [],
     "start": Object {
@@ -183,6 +713,124 @@ Object {
   },
   "type": "html",
   "value": "<div id=\\"gist90436059\\" class=\\"gist\\">
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-example-sh\\" class=\\"file\\">
+    
+
+  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
+      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+      <tr>
+        <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&#39;</span>hello<span class=\\"pl-pds\\">&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
+        <td id=\\"file-example-sh-LC3\\" class=\\"blob-code blob-code-inner js-file-line\\">  hello</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L4\\" class=\\"blob-num js-line-number\\" data-line-number=\\"4\\"></td>
+        <td id=\\"file-example-sh-LC4\\" class=\\"blob-code blob-code-inner js-file-line\\">  </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L5\\" class=\\"blob-num js-line-number\\" data-line-number=\\"5\\"></td>
+        <td id=\\"file-example-sh-LC5\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects standard error (no error in this case)</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&#39;</span>hello<span class=\\"pl-pds\\">&#39;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
+        <td id=\\"file-example-sh-LC7\\" class=\\"blob-code blob-code-inner js-file-line\\">  hello</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L8\\" class=\\"blob-num js-line-number\\" data-line-number=\\"8\\"></td>
+        <td id=\\"file-example-sh-LC8\\" class=\\"blob-code blob-code-inner js-file-line\\">  </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L9\\" class=\\"blob-num js-line-number\\" data-line-number=\\"9\\"></td>
+        <td id=\\"file-example-sh-LC9\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects standard out to /dev/null (so no output) </span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&#39;</span>hello<span class=\\"pl-pds\\">&#39;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
+        <td id=\\"file-example-sh-LC11\\" class=\\"blob-code blob-code-inner js-file-line\\">  </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L12\\" class=\\"blob-num js-line-number\\" data-line-number=\\"12\\"></td>
+        <td id=\\"file-example-sh-LC12\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects everything to /dev/null (so no output)</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&#39;</span>hello<span class=\\"pl-pds\\">&#39;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
+        <td id=\\"file-example-sh-LC14\\" class=\\"blob-code blob-code-inner js-file-line\\">
+</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L15\\" class=\\"blob-num js-line-number\\" data-line-number=\\"15\\"></td>
+        <td id=\\"file-example-sh-LC15\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection (causing error)    </span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L16\\" class=\\"blob-num js-line-number\\" data-line-number=\\"16\\"></td>
+        <td id=\\"file-example-sh-LC16\\" class=\\"blob-code blob-code-inner js-file-line\\">$ unlink unexisting-file.sh </td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L17\\" class=\\"blob-num js-line-number\\" data-line-number=\\"17\\"></td>
+        <td id=\\"file-example-sh-LC17\\" class=\\"blob-code blob-code-inner js-file-line\\">  unlink: unexisting-file.sh: No such file or directory</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L18\\" class=\\"blob-num js-line-number\\" data-line-number=\\"18\\"></td>
+        <td id=\\"file-example-sh-LC18\\" class=\\"blob-code blob-code-inner js-file-line\\">
+</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L19\\" class=\\"blob-num js-line-number\\" data-line-number=\\"19\\"></td>
+        <td id=\\"file-example-sh-LC19\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects standard error to /dev/null (so no error)</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L20\\" class=\\"blob-num js-line-number\\" data-line-number=\\"20\\"></td>
+        <td id=\\"file-example-sh-LC20\\" class=\\"blob-code blob-code-inner js-file-line\\">$ unlink unexisting-file.sh <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L21\\" class=\\"blob-num js-line-number\\" data-line-number=\\"21\\"></td>
+        <td id=\\"file-example-sh-LC21\\" class=\\"blob-code blob-code-inner js-file-line\\">
+</td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L22\\" class=\\"blob-num js-line-number\\" data-line-number=\\"22\\"></td>
+        <td id=\\"file-example-sh-LC22\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> redirects everything to /dev/null (so no error)</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-example-sh-L23\\" class=\\"blob-num js-line-number\\" data-line-number=\\"23\\"></td>
+        <td id=\\"file-example-sh-LC23\\" class=\\"blob-code blob-code-inner js-file-line\\">$ unlink unexisting-file.sh <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null</td>
+      </tr>
+</table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/cd59c416e46510473fa99e250b9446eec30d252c/example.sh\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
+        hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">

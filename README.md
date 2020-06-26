@@ -13,11 +13,14 @@ To embed a Gist snippet in you markdown/remark content, simply add an inline cod
 block using the `gist:` protocol.
 
 ```md
-`gist:[<username>/]<gist_id>[#<gist_file>]`
-
-or 
-
-`gist:[<username>/]<gist_id>[?file=<gist_file>&highlights=<number|ranges>]`
+`gist:[<username>/]<gist_id>#<gist_file>`
+`gist:[<username>/]<gist_id>#<gist_file>?lines=<number|ranges>`
+`gist:[<username>/]<gist_id>#<gist_file>?highlights=<number|ranges>`
+`gist:[<username>/]<gist_id>#<gist_file>?highlights=<number|ranges>&lines=<number|ranges>`
+`gist:[<username>/]<gist_id>?file=<gist_file>`
+`gist:[<username>/]<gist_id>?file=<gist_file>?lines=<number|ranges>`
+`gist:[<username>/]<gist_id>?file=<gist_file>?highlights=<number|ranges>`
+`gist:[<username>/]<gist_id>?file=<gist_file>?highlights=<number|ranges>&lines=<number|ranges>`
 ```
 
 Where:  
@@ -27,11 +30,11 @@ Can be defaulted via configuration.
 This is the hash value in the gist url, e.g. https://gist.github.com/<username\>/`ce54fdb1e5621b5966e146026995b974`).
 - **gist_file**, is the name of the file in the gist to be accessed.  
 
-Highlights can be defined using:
-- A single number (e.g. `highlights=1`)
-- A list of numbers (e.g. `highlights=1,4`) 
-- A range of numbers (e.g. `highlights=1-4`)
-- A combination of all above (e.g. `highlights=1,3,7-9`)  
+Highlights and lines can be defined using:
+- A single number (e.g. `highlights=1`, `lines=1`)
+- A list of numbers (e.g. `highlights=1,4`, `lines=1,4`) 
+- A range of numbers (e.g. `highlights=1-4`, `lines=1-4`)
+- A combination of all above (e.g. `highlights=1,3,7-9`, `lines=1,3,7-9`)
 
 ## Installation
 

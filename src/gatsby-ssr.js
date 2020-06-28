@@ -12,25 +12,49 @@ import React from "react";
  * @param {PluginOptions} options the options of the plugin.
  * @returns {*} rendered body.
  */
-export function onRenderBody({ setHeadComponents }, options = {}) {
-  if (options.includeDefaultCss !== false) {
-    return setHeadComponents([
-      <link
-        as="style"
-        href="https://github.githubassets.com/assets/gist-embed-b3b573358bfc66d89e1e95dbf8319c09.css"
-        key="gist-embeded-b3b573358bfc66d89e1e95dbf8319c09"
-        onLoad="this.onload=null;this.rel='stylesheet'"
-        rel="preload"
-      />,
-      <noscript key="gist-embeded-noscript-b3b573358bfc66d89e1e95dbf8319c09">
-        <link
-          href="https://github.githubassets.com/assets/gist-embed-b3b573358bfc66d89e1e95dbf8319c09.css"
-          key="gist-embeded-b3b573358bfc66d89e1e95dbf8319c09"
-          rel="stylesheet"
-        />
-      </noscript>
-    ]);
+export function onRenderBody(
+  { setHeadComponents },
+  options = {
+    gistCssPreload: false,
+    gistCssUrlAddress:
+      "https://github.githubassets.com/assets/gist-embed-b3b573358bfc66d89e1e95dbf8319c09.css"
+  }
+) {
+  let includeCss = true;
+  if (options.gistDefaultCssInclude != null) {
+    includeCss = options.gistDefaultCssInclude;
+  } else if (options.includeDefaultCss != null) {
+    includeCss = options.includeDefaultCss;
   }
 
-  return null;
+  const key = "gist-embed-b3b573358bfc66d89e1e95dbf8319c09";
+
+  if (includeCss) {
+    setHeadComponents(
+      options.gistCssPreload
+        ? [
+            <link
+              id={key}
+              as="style"
+              href={options.gistCssUrlAddress}
+              key={key}
+              rel="preload"
+            />,
+            <noscript key={"noscript-" + key}>
+              <link href={options.gistCssUrlAddress} rel="stylesheet" />
+            </noscript>,
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  var link = document.querySelector("#${key}");
+                  link.addEventListener("load", function() {
+                    this.rel = "stylesheet"
+                  });
+                `
+              }}
+            ></script>
+          ]
+        : [<link href={options.gistCssUrlAddress} rel="stylesheet" />]
+    );
+  }
 }

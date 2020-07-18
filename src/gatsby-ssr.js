@@ -12,14 +12,16 @@ import React from "react";
  * @param {PluginOptions} options the options of the plugin.
  * @returns {*} rendered body.
  */
-export function onRenderBody(
-  { setHeadComponents },
+export function onRenderBody({ setHeadComponents }, options = {}) {
   options = {
-    gistCssPreload: false,
-    gistCssUrlAddress:
-      "https://github.githubassets.com/assets/gist-embed-b3b573358bfc66d89e1e95dbf8319c09.css"
-  }
-) {
+    ...{
+      gistCssPreload: false,
+      gistCssUrlAddress:
+        "https://github.githubassets.com/assets/gist-embed-b3b573358bfc66d89e1e95dbf8319c09.css"
+    },
+    ...options
+  };
+
   let includeCss = true;
   if (options.gistDefaultCssInclude != null) {
     includeCss = options.gistDefaultCssInclude;
@@ -54,7 +56,7 @@ export function onRenderBody(
               }}
             ></script>
           ]
-        : [<link href={options.gistCssUrlAddress} rel="stylesheet" />]
+        : [<link href={options.gistCssUrlAddress} key={key} rel="stylesheet" />]
     );
   }
 }

@@ -28,6 +28,50 @@ describe("gatsby-remark-embedded-gist", () => {
     expect(getNodeContent(markdownAST)).toMatchSnapshot();
   });
 
+  it("generates an embedded gist with username and file in query with .", async () => {
+    const markdownAST = remark.parse(
+      "`gist:weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68?file=.inputrc`"
+    );
+
+    const processed = await plugin({ markdownAST });
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("generates an embedded gist with username and file in query with . and a single line highlighted", async () => {
+    const markdownAST = remark.parse(
+      "`gist:weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68?file=.inputrc&highlights=7`"
+    );
+
+    const processed = await plugin({ markdownAST });
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("generates an embedded gist with username and file in query with . and multiple line highlighted", async () => {
+    const markdownAST = remark.parse(
+      "`gist:weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68?file=.inputrc&highlights=7,9`"
+    );
+
+    const processed = await plugin({ markdownAST });
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
+  it("generates an embedded gist with username and file in query with . a single line highlighted and multiple line selected", async () => {
+    const markdownAST = remark.parse(
+      "`gist:weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68?file=.inputrc&highlights=7&lines=6-8`"
+    );
+
+    const processed = await plugin({ markdownAST });
+    expect(processed).toBeTruthy();
+
+    expect(getNodeContent(markdownAST)).toMatchSnapshot();
+  });
+
   it("generates an embedded gist with username and file in query", async () => {
     const markdownAST = remark.parse(
       "`gist:weirdpattern/ce54fdb1e5621b5966e146026995b974?file=syntax.text`"

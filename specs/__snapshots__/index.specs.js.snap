@@ -20,38 +20,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -133,33 +107,6 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
@@ -188,38 +135,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -327,33 +248,6 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
@@ -382,38 +276,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -495,33 +363,6 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
@@ -550,11 +391,40 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
+  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+      <tr>
+        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
+      </tr>
+</table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
+        hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
+    
+
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -660,7 +530,7 @@ Object {
 
       </div>
       <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/cd59c416e46510473fa99e250b9446eec30d252c/example.sh\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
         hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
@@ -668,11 +538,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
+  <div id=\\"file-syntax-text\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tr>
         <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
@@ -687,7 +558,7 @@ Object {
 
       </div>
       <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/cd59c416e46510473fa99e250b9446eec30d252c/syntax.text\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
@@ -716,11 +587,40 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
+  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+      <tr>
+        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
+      </tr>
+</table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
+        hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
+    
+
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -826,7 +726,7 @@ Object {
 
       </div>
       <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/cd59c416e46510473fa99e250b9446eec30d252c/example.sh\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
         hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
@@ -834,11 +734,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
+  <div id=\\"file-syntax-text\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tr>
         <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
@@ -853,7 +754,7 @@ Object {
 
       </div>
       <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/cd59c416e46510473fa99e250b9446eec30d252c/syntax.text\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
@@ -882,11 +783,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
+  <div id=\\"file-syntax-text\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tr>
         <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
@@ -901,7 +803,7 @@ Object {
 
       </div>
       <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/cd59c416e46510473fa99e250b9446eec30d252c/syntax.text\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
@@ -930,38 +832,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -1069,33 +945,6 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
@@ -1124,38 +973,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -1240,33 +1063,6 @@ Object {
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
 </div>
 </body></html>",
 }
@@ -1292,38 +1088,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -1431,33 +1201,6 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
@@ -1486,38 +1229,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -1571,33 +1288,6 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
@@ -1626,38 +1316,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -1765,33 +1429,6 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
@@ -1820,38 +1457,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
@@ -1905,33 +1516,6 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
@@ -1960,38 +1544,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -2099,33 +1657,6 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
@@ -2154,11 +1685,40 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
+  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+      <tr>
+        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
+      </tr>
+</table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
+        hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
+    
+
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -2264,7 +1824,7 @@ Object {
 
       </div>
       <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/cd59c416e46510473fa99e250b9446eec30d252c/example.sh\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
         hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
@@ -2272,11 +1832,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
+  <div id=\\"file-syntax-text\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tr>
         <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
@@ -2291,7 +1852,7 @@ Object {
 
       </div>
       <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/cd59c416e46510473fa99e250b9446eec30d252c/syntax.text\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
@@ -2320,11 +1881,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
+  <div id=\\"file-syntax-text\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tr>
         <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
@@ -2339,7 +1901,7 @@ Object {
 
       </div>
       <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/cd59c416e46510473fa99e250b9446eec30d252c/syntax.text\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
@@ -2368,11 +1930,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
+  <div id=\\"file-syntax-text\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tr>
         <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
@@ -2387,12 +1950,360 @@ Object {
 
       </div>
       <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/cd59c416e46510473fa99e250b9446eec30d252c/syntax.text\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>",
+}
+`;
+
+exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with . 1`] = `
+Object {
+  "position": Position {
+    "end": Object {
+      "column": 67,
+      "line": 1,
+      "offset": 66,
+    },
+    "indent": Array [],
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "html",
+  "value": "<div id=\\"gist105038472\\" class=\\"gist\\">
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-inputrc\\" class=\\"file \\">
+    
+
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-readline-config  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+      <tr>
+        <td id=\\"file-inputrc-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-inputrc-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-k\\">set</span> <span class=\\"pl-v\\">keymap</span> <span class=\\"pl-s\\">vi-insert</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
+        <td id=\\"file-inputrc-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">a</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">beginning-of-line</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
+        <td id=\\"file-inputrc-LC3\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">b</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">backward-char</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L4\\" class=\\"blob-num js-line-number\\" data-line-number=\\"4\\"></td>
+        <td id=\\"file-inputrc-LC4\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">d</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">delete-char</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L5\\" class=\\"blob-num js-line-number\\" data-line-number=\\"5\\"></td>
+        <td id=\\"file-inputrc-LC5\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">e</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">end-of-line</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
+        <td id=\\"file-inputrc-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">f</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">forward-char</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
+        <td id=\\"file-inputrc-LC7\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">k</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">kill-line</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L8\\" class=\\"blob-num js-line-number\\" data-line-number=\\"8\\"></td>
+        <td id=\\"file-inputrc-LC8\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">n</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">next-history</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L9\\" class=\\"blob-num js-line-number\\" data-line-number=\\"9\\"></td>
+        <td id=\\"file-inputrc-LC9\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">p</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">previous-history</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
+        <td id=\\"file-inputrc-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-k\\">set</span> <span class=\\"pl-v\\">keymap</span> <span class=\\"pl-s\\">emacs-ctlx</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
+        <td id=\\"file-inputrc-LC11\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">v</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">vi-editing-mode</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L12\\" class=\\"blob-num js-line-number\\" data-line-number=\\"12\\"></td>
+        <td id=\\"file-inputrc-LC12\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">v</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&quot;</span><span class=\\"pl-cce\\">\\\\C</span>-xv<span class=\\"pl-cce\\">\\\\e</span><span class=\\"pl-pds\\">&quot;</span></span></td>
+      </tr>
+</table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68/raw/13d3e3938406f46aec46831b3c438eefa6b53eeb/.inputrc\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68#file-inputrc\\">.inputrc</a>
+        hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+</div>",
+}
+`;
+
+exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with . a single line highlighted and multiple line selected 1`] = `
+Object {
+  "position": Position {
+    "end": Object {
+      "column": 90,
+      "line": 1,
+      "offset": 89,
+    },
+    "indent": Array [],
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "html",
+  "value": "<html><head></head><body><div id=\\"gist105038472\\" class=\\"gist\\">
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-inputrc\\" class=\\"file \\">
+    
+
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-readline-config  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+      <tbody>
+      
+      
+      
+      
+      <tr>
+        <td id=\\"file-inputrc-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
+        <td id=\\"file-inputrc-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">f</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">forward-char</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
+        <td id=\\"file-inputrc-LC7\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">k</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">kill-line</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L8\\" class=\\"blob-num js-line-number\\" data-line-number=\\"8\\"></td>
+        <td id=\\"file-inputrc-LC8\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">n</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">next-history</span></td>
+      </tr>
+      
+      
+      
+      
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68/raw/13d3e3938406f46aec46831b3c438eefa6b53eeb/.inputrc\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68#file-inputrc\\">.inputrc</a>
+        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+</div>
+</body></html>",
+}
+`;
+
+exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with . and a single line highlighted 1`] = `
+Object {
+  "position": Position {
+    "end": Object {
+      "column": 80,
+      "line": 1,
+      "offset": 79,
+    },
+    "indent": Array [],
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "html",
+  "value": "<html><head></head><body><div id=\\"gist105038472\\" class=\\"gist\\">
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-inputrc\\" class=\\"file \\">
+    
+
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-readline-config  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+      <tbody><tr>
+        <td id=\\"file-inputrc-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-inputrc-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-k\\">set</span> <span class=\\"pl-v\\">keymap</span> <span class=\\"pl-s\\">vi-insert</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
+        <td id=\\"file-inputrc-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">a</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">beginning-of-line</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
+        <td id=\\"file-inputrc-LC3\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">b</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">backward-char</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L4\\" class=\\"blob-num js-line-number\\" data-line-number=\\"4\\"></td>
+        <td id=\\"file-inputrc-LC4\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">d</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">delete-char</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L5\\" class=\\"blob-num js-line-number\\" data-line-number=\\"5\\"></td>
+        <td id=\\"file-inputrc-LC5\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">e</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">end-of-line</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
+        <td id=\\"file-inputrc-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">f</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">forward-char</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
+        <td id=\\"file-inputrc-LC7\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">k</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">kill-line</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L8\\" class=\\"blob-num js-line-number\\" data-line-number=\\"8\\"></td>
+        <td id=\\"file-inputrc-LC8\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">n</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">next-history</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L9\\" class=\\"blob-num js-line-number\\" data-line-number=\\"9\\"></td>
+        <td id=\\"file-inputrc-LC9\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">p</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">previous-history</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
+        <td id=\\"file-inputrc-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-k\\">set</span> <span class=\\"pl-v\\">keymap</span> <span class=\\"pl-s\\">emacs-ctlx</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
+        <td id=\\"file-inputrc-LC11\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">v</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">vi-editing-mode</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L12\\" class=\\"blob-num js-line-number\\" data-line-number=\\"12\\"></td>
+        <td id=\\"file-inputrc-LC12\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">v</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&quot;</span><span class=\\"pl-cce\\">\\\\C</span>-xv<span class=\\"pl-cce\\">\\\\e</span><span class=\\"pl-pds\\">&quot;</span></span></td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68/raw/13d3e3938406f46aec46831b3c438eefa6b53eeb/.inputrc\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68#file-inputrc\\">.inputrc</a>
+        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+</div>
+</body></html>",
+}
+`;
+
+exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with . and multiple line highlighted 1`] = `
+Object {
+  "position": Position {
+    "end": Object {
+      "column": 82,
+      "line": 1,
+      "offset": 81,
+    },
+    "indent": Array [],
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "html",
+  "value": "<html><head></head><body><div id=\\"gist105038472\\" class=\\"gist\\">
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-inputrc\\" class=\\"file \\">
+    
+
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-readline-config  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+      <tbody><tr>
+        <td id=\\"file-inputrc-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-inputrc-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-k\\">set</span> <span class=\\"pl-v\\">keymap</span> <span class=\\"pl-s\\">vi-insert</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
+        <td id=\\"file-inputrc-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">a</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">beginning-of-line</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
+        <td id=\\"file-inputrc-LC3\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">b</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">backward-char</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L4\\" class=\\"blob-num js-line-number\\" data-line-number=\\"4\\"></td>
+        <td id=\\"file-inputrc-LC4\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">d</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">delete-char</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L5\\" class=\\"blob-num js-line-number\\" data-line-number=\\"5\\"></td>
+        <td id=\\"file-inputrc-LC5\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">e</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">end-of-line</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
+        <td id=\\"file-inputrc-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">f</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">forward-char</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
+        <td id=\\"file-inputrc-LC7\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">k</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">kill-line</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L8\\" class=\\"blob-num js-line-number\\" data-line-number=\\"8\\"></td>
+        <td id=\\"file-inputrc-LC8\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">n</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">next-history</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L9\\" class=\\"blob-num js-line-number\\" data-line-number=\\"9\\"></td>
+        <td id=\\"file-inputrc-LC9\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">p</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">previous-history</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
+        <td id=\\"file-inputrc-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-k\\">set</span> <span class=\\"pl-v\\">keymap</span> <span class=\\"pl-s\\">emacs-ctlx</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
+        <td id=\\"file-inputrc-LC11\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">v</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-en\\">vi-editing-mode</span></td>
+      </tr>
+      <tr>
+        <td id=\\"file-inputrc-L12\\" class=\\"blob-num js-line-number\\" data-line-number=\\"12\\"></td>
+        <td id=\\"file-inputrc-LC12\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">v</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&quot;</span><span class=\\"pl-cce\\">\\\\C</span>-xv<span class=\\"pl-cce\\">\\\\e</span><span class=\\"pl-pds\\">&quot;</span></span></td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68/raw/13d3e3938406f46aec46831b3c438eefa6b53eeb/.inputrc\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68#file-inputrc\\">.inputrc</a>
+        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+</div>
+</body></html>",
 }
 `;
 
@@ -2416,38 +2327,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -2558,33 +2443,6 @@ Object {
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
 </div>
 </body></html>",
 }
@@ -2610,38 +2468,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -2698,33 +2530,6 @@ Object {
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
 </div>
 </body></html>",
 }
@@ -2750,38 +2555,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -2892,33 +2671,6 @@ Object {
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
 </div>
 </body></html>",
 }
@@ -2944,38 +2696,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -3032,33 +2758,6 @@ Object {
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
 </div>
 </body></html>",
 }
@@ -3084,38 +2783,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -3226,33 +2899,6 @@ Object {
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
 </div>
 </body></html>",
 }
@@ -3278,38 +2924,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -3366,33 +2986,6 @@ Object {
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
 </div>
 </body></html>",
 }
@@ -3418,38 +3011,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -3560,33 +3127,6 @@ Object {
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
 </div>
 </body></html>",
 }
@@ -3612,38 +3152,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -3685,33 +3199,6 @@ Object {
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
 </div>
 </body></html>",
 }
@@ -3737,11 +3224,40 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
+  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+      <tr>
+        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
+        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
+      </tr>
+</table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class=\\"gist-meta\\">
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
+        hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
+      </div>
+    </div>
+    <div class=\\"gist-file\\">
+      <div class=\\"gist-data\\">
+        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
+    
+
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -3847,7 +3363,7 @@ Object {
 
       </div>
       <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/cd59c416e46510473fa99e250b9446eec30d252c/example.sh\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
         hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
@@ -3855,11 +3371,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
+  <div id=\\"file-syntax-text\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tr>
         <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
@@ -3874,7 +3391,7 @@ Object {
 
       </div>
       <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/cd59c416e46510473fa99e250b9446eec30d252c/syntax.text\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
@@ -3903,11 +3420,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
+  <div id=\\"file-syntax-text\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tr>
         <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
@@ -3922,7 +3440,7 @@ Object {
 
       </div>
       <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/cd59c416e46510473fa99e250b9446eec30d252c/syntax.text\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
@@ -3951,11 +3469,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
+  <div id=\\"file-syntax-text\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tr>
         <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
@@ -3970,7 +3489,7 @@ Object {
 
       </div>
       <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/cd59c416e46510473fa99e250b9446eec30d252c/syntax.text\\" style=\\"float:right\\">view raw</a>
+        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#10084; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
@@ -3999,38 +3518,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -4138,33 +3631,6 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
@@ -4193,38 +3659,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -4293,33 +3733,6 @@ Object {
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
 </div>
 </body></html>",
 }
@@ -4345,38 +3758,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -4484,33 +3871,6 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
@@ -4539,38 +3899,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -4624,33 +3958,6 @@ Object {
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
 </div>
 </body></html>",
 }
@@ -4676,38 +3983,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -4818,33 +4099,6 @@ Object {
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
 </div>
 </body></html>",
 }
@@ -4870,38 +4124,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody>
       
       
@@ -4977,33 +4205,6 @@ Object {
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
 </div>
 </body></html>",
 }
@@ -5029,38 +4230,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -5171,33 +4346,6 @@ Object {
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
 </div>
 </body></html>",
 }
@@ -5223,38 +4371,12 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file\\">
+  <div id=\\"file-example-sh\\" class=\\"file \\">
     
 
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-2016-08-31-stream-redirection-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-2016-08-31-stream-redirection-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">2016.08.31.stream-redirection</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/.2016.08.31.stream-redirection\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-2016-08-31-stream-redirection\\">.2016.08.31.stream-redirection</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-shell\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
+  <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
+      
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
       <tbody>
       
       
@@ -5293,33 +4415,6 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
-      </div>
-    </div>
-    <div class=\\"gist-file\\">
-      <div class=\\"gist-data\\">
-        <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file\\">
-    
-
-  <div itemprop=\\"text\\" class=\\"blob-wrapper data type-text\\">
-      <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\">
-      <tbody><tr>
-        <td id=\\"file-syntax-text-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
-        <td id=\\"file-syntax-text-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\">&lt;operation&gt; [n]&gt; /dev/null [options]</td>
-      </tr>
-</tbody></table>
-
-
-  </div>
-
-  </div>
-</div>
-
-      </div>
-      <div class=\\"gist-meta\\">
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/syntax.text\\" style=\\"float:right\\">view raw</a>
-        <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-syntax-text\\">syntax.text</a>
         hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>

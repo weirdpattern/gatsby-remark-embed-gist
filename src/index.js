@@ -2,7 +2,7 @@ import querystring from "querystring";
 
 import cheerio from "cheerio";
 import parse from "parse-numeric-range";
-import request from "request-promise";
+import fetch from "node-fetch";
 import visit from "async-unist-util-visit";
 
 // default base url
@@ -160,8 +160,8 @@ export default async ({ markdownAST }, options = {}) => {
     const url = buildUrl(node.value.substring(5), options, query.file);
 
     // call the gist and update the node type and value
-    const body = await request(url);
-    const content = JSON.parse(body);
+    const response = await fetch(url);
+    const content = await response.json();
 
     let html = content.div;
     const hasLines = query.lines.length > 0;
@@ -170,7 +170,10 @@ export default async ({ markdownAST }, options = {}) => {
     if (hasHighlights || hasLines) {
       const $ = cheerio.load(html);
       const file = query.file
-        ? query.file.replace(/[^a-zA-Z0-9_]+/g, "-").toLowerCase()
+        ? query.file
+            .replace(/^\./, "")
+            .replace(/[^a-zA-Z0-9_]+/g, "-")
+            .toLowerCase()
         : "";
 
       // highlight the specify lines, if any
